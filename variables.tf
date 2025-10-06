@@ -1,10 +1,3 @@
-variable "client_id" {
-    description = "The Client ID of the Service Principal."
-    type = string
-  
-}
-
-
 variable "subscription_id" {
     description = "The Client ID of the Service Principal."
     type = string
@@ -22,7 +15,7 @@ variable "client_secret" {
     type = string
     default = "0be23bdd-6352-4607-a9ce-d81e8e66c14a"
   }
-  
+
 variable "tenant_id" {
     description = "The Client ID of the Service Principal."
     type = string
