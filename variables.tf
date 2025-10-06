@@ -10,11 +10,10 @@ variable "client_id" {
     default = "7fd92cfc-6490-41c9-a389-9f4daf254f99"
     }
 
-variable "client_secret" {
+variable "secret_value" {
     description = "The Client ID of the Service Principal."
     type = string
-    default = "kjC8Q~62PG~0JmLZSdNC9NVzMSLloqmCRkd8Ua6v"
-  }
+      }
 
 variable "tenant_id" {
     description = "The Client ID of the Service Principal."
