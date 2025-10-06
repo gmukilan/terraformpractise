@@ -13,7 +13,7 @@ variable "client_id" {
 variable "client_secret" {
     description = "The Client ID of the Service Principal."
     type = string
-    default = "0be23bdd-6352-4607-a9ce-d81e8e66c14a"
+    default = "kjC8Q~62PG~0JmLZSdNC9NVzMSLloqmCRkd8Ua6v"
   }
 
 variable "tenant_id" {
