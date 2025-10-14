@@ -7,7 +7,13 @@ terraform {
       version = "~> 3.0"
     }
   }
-
+cloud {
+    organization = "mukilandev"
+    workspaces {
+      name = "terraformpractise"
+    }
+  
+}
   required_version = ">= 1.0"
 }
 
@@ -17,6 +23,6 @@ provider "azurerm" {
   # These values can be set via environment variables or GitHub Secrets
   subscription_id = var.subscription_id
   client_id       = var.client_id
-  client_secret   = var.client_secret
+  client_secret   = var.secret_value
   tenant_id       = var.tenant_id
 }
