@@ -82,4 +82,10 @@ resource "azurerm_virtual_machine" "main" {
   }
   tags = local.tags
   }
+output "resource_group_name" {
+  value = data.azurerm_resource_group.example.name
+}
+output "azurerm_virtual_machine_ip" {
+  value = azurerm_network_interface.main.private_ip_address
+  
 }

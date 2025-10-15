@@ -30,3 +30,7 @@ variable "vmsize" {
   type = string   
   
 }
+variable "prefix" {
+  type    = string
+  default = "mytf"
+}
