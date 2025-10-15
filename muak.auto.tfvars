@@ -1,2 +1,2 @@
 
-saname = "standard"
+saname = "Standard"
