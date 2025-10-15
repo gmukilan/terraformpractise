@@ -17,3 +17,7 @@ variable "tenant_id" {
     description = "The Client ID of the Service Principal."
     type = string
   }
+
+variable "saname" {
+  type = string   
+}
