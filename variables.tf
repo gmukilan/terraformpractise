@@ -30,7 +30,3 @@ variable "vmsize" {
   type = string   
   
 }
-variable "nicname" {
-  type = string   
-  
-}
