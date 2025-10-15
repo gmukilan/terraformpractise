@@ -21,3 +21,16 @@ variable "tenant_id" {
 variable "saname" {
   type = string   
 }
+
+variable "vmname" {
+  type = string   
+  
+}
+variable "vmsize" {
+  type = string   
+  
+}
+variable "nicname" {
+  type = string   
+  
+}
