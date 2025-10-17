@@ -1,4 +1,4 @@
 
 saname = "Standard"
 vmname = "muakvm"
-vmsize = "B2s"
+vmsize = "Standard_D2s_v3"
