@@ -1,4 +1,4 @@
-module resource_group_name "namerg" {
+module "namerg" {
     source              = "./Module"
     rg_name             = "mukilan-rg-module"
     location            = "East US"
