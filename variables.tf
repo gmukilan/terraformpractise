@@ -34,3 +34,17 @@ variable "prefix" {
   type    = string
   default = "mytf"
 }
+
+variable "storage_account_name" {
+  type    = string
+  default = "mukatfstorageacct"
+  
+}
+
+variable "location" {
+  type    = string
+  default = "East US"
+  
+}
+
+
