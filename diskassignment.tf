@@ -7,3 +7,11 @@ resource "azurerm_managed_disk" "data_disk" {
   disk_size_gb        = var.disk_size_gb
   
 }
+
+resource "azurerm_virtual_machine_data_disk_attachment" "data_disk_attachment" {
+  managed_disk_id    = azurerm_managed_disk.data_disk.id
+  virtual_machine_id = azurerm_virtual_machine.main.id
+  lun                = 0
+  caching            = "ReadWrite"
+    create_option      = "Attach"
+}
