@@ -47,4 +47,10 @@ variable "location" {
   
 }
 
+variable "data_disk_size_gb" {
+  type    = number
+  default = 10
+  
+}
+
 
